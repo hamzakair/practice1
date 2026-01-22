@@ -1,15 +1,19 @@
-x = 1    # int
-y = 2.8  # float
-z = 1j   # complex
+# example 1
+x = int(1)
+print(x)
 
-a = float(x)
-b = int(y)
-c = complex(x)
+# example 2
+y = float(2)
+print(y)
 
+# example 3
+z = str(3)
+print(z)
+
+# example 4
+a = float("3")
 print(a)
-print(b)
-print(c)
 
-print(type(a))
-print(type(b))
-print(type(c))
+# example 5
+b = int(2.8)
+print(b)
